@@ -1,3 +1,3 @@
-Formula editor similar to https://pry.co/
+Formula editor similar to one found in Models section in https://pry.co/
 
-you can check the live demo from https://formula-editor-vercel.vercel.app/
+You can check the live demo from https://formula-editor-vercel.vercel.app/
