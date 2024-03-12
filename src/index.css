@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accordion-button:focus
+{
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed)
+{
+    background-color: initial !important;
+}
+*
+{
+    box-sizing: border-box !important;
+}
+
+.p-autocomplete .p-autocomplete-multiple-container:not(.p-disabled).p-focus
+{
+    box-shadow: none !important;
+    border-color: rgb(100 116 139) !important;
+}
+
+.p-autocomplete .p-autocomplete-multiple-container:not(.p-disabled):hover
+{
+    border-color: rgb(148 163 184) !important;
+}
+.p-button.p-button-secondary:enabled:focus {
+    box-shadow: none;
+}
+
+.p-autocomplete .p-autocomplete-multiple-container .p-autocomplete-input-token input{
+    color: black;
+}
+
+.p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item.p-highlight
+{
+    background: #f3f4f6 !important
+}
